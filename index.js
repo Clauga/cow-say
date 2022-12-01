@@ -1,9 +1,9 @@
-//const userInfo = require('./informations');
-//console.log(`Helloo, my name is ${userInfo.name} and I'm in ${userInfo.campus}`);
+const userInfo = require('./information');
 
+var cowsay = require("cowsay");
 
-const {say} = require('cowsay');
-const message = say({text: 'My name is Claudia, Im in remote'});
-
-console.log(message);
-
+console.log(cowsay.say({
+    text : userInfo.userName + ' ' + userInfo.campus,
+    e : "oO",
+    T : "U "
+}));
