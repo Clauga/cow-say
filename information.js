@@ -1,3 +1,6 @@
-const objects ={userName:"Claudia", campus:"Remote"};
+const myFormation = {
+    myName: "Claudia",
+    myCampus: "Remote"
+};
 
-module.exports = objects;
+module.exports = myFormation;
